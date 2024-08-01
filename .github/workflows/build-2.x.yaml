@@ -23,7 +23,7 @@ jobs:
       matrix:
         platform:
           # Trusty
-          - ubuntu-16.04
+          - ubuntu-latest
         java-version:
           - 8
     runs-on: ${{ matrix.platform }}
